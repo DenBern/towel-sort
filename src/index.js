@@ -2,9 +2,12 @@
 // You should implement your task here.
 
 module.exports = function towelSort (matrix) {
-  if (matrix.length == 0) {
+  if (matrix == undefined) {
     return [];
-  } else {
-    return [matrix.flat(1)];
-  }
+  } else if (matrix.length == 0) {
+    return [];
+  } 
+
+
+
 };
